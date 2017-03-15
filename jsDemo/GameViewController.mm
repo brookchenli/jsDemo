@@ -7,6 +7,7 @@
 //
 
 #import "GameViewController.h"
+#import "CocosManager.h"
 
 @interface GameViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
+    
+    UIView *m_cocosView = [[CocosManager instance] getCocosEaglView];
+    [self.view addSubview:m_cocosView];
+    
+    [[CocosManager instance] startCocosScene002];
+    
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 200)];
     button.backgroundColor = [UIColor grayColor];
     [button setTitle:@"back" forState:UIControlStateNormal];

@@ -13,7 +13,28 @@
 		BCFE0C671E7997C200C9D574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C651E7997C200C9D574 /* Main.storyboard */; };
 		BCFE0C691E7997C200C9D574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C681E7997C200C9D574 /* Assets.xcassets */; };
 		BCFE0C6C1E7997C200C9D574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C6A1E7997C200C9D574 /* LaunchScreen.storyboard */; };
-		BCFE0C7A1E799C6B00C9D574 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C791E799C6B00C9D574 /* GameViewController.m */; };
+		BCFE0C7A1E799C6B00C9D574 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C791E799C6B00C9D574 /* GameViewController.mm */; };
+		BCFE0C7D1E799D0F00C9D574 /* res in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7B1E799D0F00C9D574 /* res */; };
+		BCFE0C7E1E799D0F00C9D574 /* src in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7C1E799D0F00C9D574 /* src */; };
+		BCFE0C811E799D1900C9D574 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7F1E799D1900C9D574 /* main.js */; };
+		BCFE0C821E799D1900C9D574 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C801E799D1900C9D574 /* project.json */; };
+		BCFE0C851E799D3000C9D574 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C841E799D3000C9D574 /* libcocos2d iOS.a */; };
+		BCFE0C881E799DB900C9D574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C871E799DB900C9D574 /* UIKit.framework */; };
+		BCFE0C8A1E799DC500C9D574 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C891E799DC500C9D574 /* libiconv.tbd */; };
+		BCFE0C8C1E799DCD00C9D574 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C8B1E799DCD00C9D574 /* Security.framework */; };
+		BCFE0C8E1E799DD500C9D574 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C8D1E799DD500C9D574 /* MediaPlayer.framework */; };
+		BCFE0C901E799DDE00C9D574 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C8F1E799DDE00C9D574 /* CoreMotion.framework */; };
+		BCFE0C921E799DE800C9D574 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C911E799DE800C9D574 /* libsqlite3.tbd */; };
+		BCFE0C941E799DEF00C9D574 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C931E799DEF00C9D574 /* libz.tbd */; };
+		BCFE0C961E799DF700C9D574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C951E799DF700C9D574 /* QuartzCore.framework */; };
+		BCFE0C981E799E0100C9D574 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C971E799E0100C9D574 /* OpenGLES.framework */; };
+		BCFE0C9A1E799E0A00C9D574 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C991E799E0A00C9D574 /* OpenAL.framework */; };
+		BCFE0C9C1E799E1100C9D574 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C9B1E799E1100C9D574 /* AudioToolbox.framework */; };
+		BCFE0C9E1E799E1C00C9D574 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C9D1E799E1C00C9D574 /* AVFoundation.framework */; };
+		BCFE0CA01E799E2400C9D574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C9F1E799E2400C9D574 /* Foundation.framework */; };
+		BCFE0CA21E799E2D00C9D574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0CA11E799E2D00C9D574 /* CoreGraphics.framework */; };
+		BCFE0CA41E799E3400C9D574 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0CA31E799E3400C9D574 /* GameController.framework */; };
+		BCFE0CA61E799EE800C9D574 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0CA51E799EE800C9D574 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +49,29 @@
 		BCFE0C6B1E7997C200C9D574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCFE0C6D1E7997C200C9D574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFE0C781E799C6B00C9D574 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		BCFE0C791E799C6B00C9D574 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BCFE0C791E799C6B00C9D574 /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		BCFE0C7B1E799D0F00C9D574 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		BCFE0C7C1E799D0F00C9D574 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		BCFE0C7F1E799D1900C9D574 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		BCFE0C801E799D1900C9D574 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
+		BCFE0C831E799D3000C9D574 /* CocosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosManager.h; sourceTree = "<group>"; };
+		BCFE0C841E799D3000C9D574 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = "<group>"; };
+		BCFE0C871E799DB900C9D574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCFE0C891E799DC500C9D574 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		BCFE0C8B1E799DCD00C9D574 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BCFE0C8D1E799DD500C9D574 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BCFE0C8F1E799DDE00C9D574 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BCFE0C911E799DE800C9D574 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BCFE0C931E799DEF00C9D574 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BCFE0C951E799DF700C9D574 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCFE0C971E799E0100C9D574 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BCFE0C991E799E0A00C9D574 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		BCFE0C9B1E799E1100C9D574 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BCFE0C9D1E799E1C00C9D574 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCFE0C9F1E799E2400C9D574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCFE0CA11E799E2D00C9D574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCFE0CA31E799E3400C9D574 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		BCFE0CA51E799EE800C9D574 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFE0CA61E799EE800C9D574 /* libc++.tbd in Frameworks */,
+				BCFE0CA41E799E3400C9D574 /* GameController.framework in Frameworks */,
+				BCFE0CA21E799E2D00C9D574 /* CoreGraphics.framework in Frameworks */,
+				BCFE0CA01E799E2400C9D574 /* Foundation.framework in Frameworks */,
+				BCFE0C9E1E799E1C00C9D574 /* AVFoundation.framework in Frameworks */,
+				BCFE0C9C1E799E1100C9D574 /* AudioToolbox.framework in Frameworks */,
+				BCFE0C9A1E799E0A00C9D574 /* OpenAL.framework in Frameworks */,
+				BCFE0C981E799E0100C9D574 /* OpenGLES.framework in Frameworks */,
+				BCFE0C961E799DF700C9D574 /* QuartzCore.framework in Frameworks */,
+				BCFE0C941E799DEF00C9D574 /* libz.tbd in Frameworks */,
+				BCFE0C921E799DE800C9D574 /* libsqlite3.tbd in Frameworks */,
+				BCFE0C901E799DDE00C9D574 /* CoreMotion.framework in Frameworks */,
+				BCFE0C8E1E799DD500C9D574 /* MediaPlayer.framework in Frameworks */,
+				BCFE0C8C1E799DCD00C9D574 /* Security.framework in Frameworks */,
+				BCFE0C8A1E799DC500C9D574 /* libiconv.tbd in Frameworks */,
+				BCFE0C881E799DB900C9D574 /* UIKit.framework in Frameworks */,
+				BCFE0C851E799D3000C9D574 /* libcocos2d iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +107,7 @@
 			children = (
 				BCFE0C5B1E7997C200C9D574 /* jsDemo */,
 				BCFE0C5A1E7997C200C9D574 /* Products */,
+				BCFE0C861E799DB900C9D574 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +122,15 @@
 		BCFE0C5B1E7997C200C9D574 /* jsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCFE0C831E799D3000C9D574 /* CocosManager.h */,
+				BCFE0C841E799D3000C9D574 /* libcocos2d iOS.a */,
 				BCFE0C771E799AC300C9D574 /* Resources */,
 				BCFE0C5F1E7997C200C9D574 /* AppDelegate.h */,
 				BCFE0C601E7997C200C9D574 /* AppDelegate.m */,
 				BCFE0C621E7997C200C9D574 /* ViewController.h */,
 				BCFE0C631E7997C200C9D574 /* ViewController.m */,
 				BCFE0C781E799C6B00C9D574 /* GameViewController.h */,
-				BCFE0C791E799C6B00C9D574 /* GameViewController.m */,
+				BCFE0C791E799C6B00C9D574 /* GameViewController.mm */,
 				BCFE0C651E7997C200C9D574 /* Main.storyboard */,
 				BCFE0C681E7997C200C9D574 /* Assets.xcassets */,
 				BCFE0C6A1E7997C200C9D574 /* LaunchScreen.storyboard */,
@@ -88,8 +151,35 @@
 		BCFE0C771E799AC300C9D574 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BCFE0C7F1E799D1900C9D574 /* main.js */,
+				BCFE0C801E799D1900C9D574 /* project.json */,
+				BCFE0C7B1E799D0F00C9D574 /* res */,
+				BCFE0C7C1E799D0F00C9D574 /* src */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCFE0C861E799DB900C9D574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE0CA51E799EE800C9D574 /* libc++.tbd */,
+				BCFE0CA31E799E3400C9D574 /* GameController.framework */,
+				BCFE0CA11E799E2D00C9D574 /* CoreGraphics.framework */,
+				BCFE0C9F1E799E2400C9D574 /* Foundation.framework */,
+				BCFE0C9D1E799E1C00C9D574 /* AVFoundation.framework */,
+				BCFE0C9B1E799E1100C9D574 /* AudioToolbox.framework */,
+				BCFE0C991E799E0A00C9D574 /* OpenAL.framework */,
+				BCFE0C971E799E0100C9D574 /* OpenGLES.framework */,
+				BCFE0C951E799DF700C9D574 /* QuartzCore.framework */,
+				BCFE0C931E799DEF00C9D574 /* libz.tbd */,
+				BCFE0C911E799DE800C9D574 /* libsqlite3.tbd */,
+				BCFE0C8F1E799DDE00C9D574 /* CoreMotion.framework */,
+				BCFE0C8D1E799DD500C9D574 /* MediaPlayer.framework */,
+				BCFE0C8B1E799DCD00C9D574 /* Security.framework */,
+				BCFE0C891E799DC500C9D574 /* libiconv.tbd */,
+				BCFE0C871E799DB900C9D574 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCFE0C6C1E7997C200C9D574 /* LaunchScreen.storyboard in Resources */,
+				BCFE0C7D1E799D0F00C9D574 /* res in Resources */,
 				BCFE0C691E7997C200C9D574 /* Assets.xcassets in Resources */,
+				BCFE0C811E799D1900C9D574 /* main.js in Resources */,
 				BCFE0C671E7997C200C9D574 /* Main.storyboard in Resources */,
+				BCFE0C7E1E799D0F00C9D574 /* src in Resources */,
+				BCFE0C821E799D1900C9D574 /* project.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFE0C7A1E799C6B00C9D574 /* GameViewController.m in Sources */,
+				BCFE0C7A1E799C6B00C9D574 /* GameViewController.mm in Sources */,
 				BCFE0C641E7997C200C9D574 /* ViewController.m in Sources */,
 				BCFE0C611E7997C200C9D574 /* AppDelegate.m in Sources */,
 				BCFE0C5E1E7997C200C9D574 /* main.m in Sources */,
@@ -286,8 +380,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HDB5LPCR9W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = jsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jsDemo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-wei.jsDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,8 +397,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HDB5LPCR9W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = jsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jsDemo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-wei.jsDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
