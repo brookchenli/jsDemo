@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GameViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 200)];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitle:@"push" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)buttonPressed{
+    GameViewController *game = [GameViewController new];
+    [self.navigationController pushViewController:game animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
