@@ -18,7 +18,6 @@
 		BCFE0C7E1E799D0F00C9D574 /* src in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7C1E799D0F00C9D574 /* src */; };
 		BCFE0C811E799D1900C9D574 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7F1E799D1900C9D574 /* main.js */; };
 		BCFE0C821E799D1900C9D574 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C801E799D1900C9D574 /* project.json */; };
-		BCFE0C851E799D3000C9D574 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C841E799D3000C9D574 /* libcocos2d iOS.a */; };
 		BCFE0C881E799DB900C9D574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C871E799DB900C9D574 /* UIKit.framework */; };
 		BCFE0C8A1E799DC500C9D574 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C891E799DC500C9D574 /* libiconv.tbd */; };
 		BCFE0C8C1E799DCD00C9D574 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C8B1E799DCD00C9D574 /* Security.framework */; };
@@ -55,7 +54,6 @@
 		BCFE0C7F1E799D1900C9D574 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		BCFE0C801E799D1900C9D574 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
 		BCFE0C831E799D3000C9D574 /* CocosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosManager.h; sourceTree = "<group>"; };
-		BCFE0C841E799D3000C9D574 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = "<group>"; };
 		BCFE0C871E799DB900C9D574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCFE0C891E799DC500C9D574 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		BCFE0C8B1E799DCD00C9D574 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -95,7 +93,6 @@
 				BCFE0C8C1E799DCD00C9D574 /* Security.framework in Frameworks */,
 				BCFE0C8A1E799DC500C9D574 /* libiconv.tbd in Frameworks */,
 				BCFE0C881E799DB900C9D574 /* UIKit.framework in Frameworks */,
-				BCFE0C851E799D3000C9D574 /* libcocos2d iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				BCFE0C831E799D3000C9D574 /* CocosManager.h */,
-				BCFE0C841E799D3000C9D574 /* libcocos2d iOS.a */,
 				BCFE0C771E799AC300C9D574 /* Resources */,
 				BCFE0C5F1E7997C200C9D574 /* AppDelegate.h */,
 				BCFE0C601E7997C200C9D574 /* AppDelegate.m */,
