@@ -95,7 +95,7 @@ var StartLayer = cc.Layer.extend({
                                                                       res.Start_N_png,
                                                                       res.Start_S_png,
                                                                       function () {
-                                                                        //console.log("xxxx");
+                                                                        console.log("xxxx");
                                                                              notifyJs(JS_CMD.CMD_GETRESPATH,"");
                                                                       }, this);
                                  startItem.attr({
@@ -127,7 +127,7 @@ var StartLayer = cc.Layer.extend({
                                  var P_this = this;
                                  */
                                  
-                                 /*
+                                 
                                  var game_listener = cc.EventListener.create({
                                                                              event:cc.EventListener.CUSTOM,
                                                                              eventName:"event_game_status",
@@ -141,7 +141,7 @@ var StartLayer = cc.Layer.extend({
                                                                              });
                                  
                                  cc.eventManager.addListener(game_listener,-1);
-                                 */
+                                 
                                  return true;
                                  },
                                  

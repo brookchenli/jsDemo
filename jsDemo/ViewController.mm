@@ -39,5 +39,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+//jsb.reflection.callStaticMethod("ViewController","js2Native:withContent:",cmd,content)
++(NSString *)js2Native:(NSString *)cmd withContent:(NSString *)content{
+    NSLog(@"111122334");
+    return [NSString stringWithFormat:@"replay %@", cmd];
+}
 
 @end

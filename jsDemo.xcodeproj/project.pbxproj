@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BC6295591E7AF68F00F45634 /* script in Resources */ = {isa = PBXBuildFile; fileRef = BC6295581E7AF68F00F45634 /* script */; };
-		BC62955D1E7AFBAF00F45634 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62955C1E7AFBAF00F45634 /* libcocos2d iOS.a */; };
 		BC62956B1E7B015700F45634 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BC62955F1E7B015700F45634 /* main.js */; };
 		BC62956C1E7B015700F45634 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = BC6295601E7B015700F45634 /* project.json */; };
 		BC6295771E7B016900F45634 /* res in Resources */ = {isa = PBXBuildFile; fileRef = BC6295751E7B016900F45634 /* res */; };
 		BC6295781E7B016900F45634 /* src in Resources */ = {isa = PBXBuildFile; fileRef = BC6295761E7B016900F45634 /* src */; };
 		BC62957B1E7B03DF00F45634 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62957A1E7B03DF00F45634 /* TestViewController.m */; };
+		BC62957F1E7B081000F45634 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62957E1E7B081000F45634 /* libcocos2d iOS.a */; };
 		BCFE0C5E1E7997C200C9D574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C5D1E7997C200C9D574 /* main.m */; };
 		BCFE0C611E7997C200C9D574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C601E7997C200C9D574 /* AppDelegate.m */; };
 		BCFE0C641E7997C200C9D574 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C631E7997C200C9D574 /* ViewController.mm */; };
@@ -40,13 +40,13 @@
 
 /* Begin PBXFileReference section */
 		BC6295581E7AF68F00F45634 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = "<group>"; };
-		BC62955C1E7AFBAF00F45634 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = "<group>"; };
 		BC62955F1E7B015700F45634 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		BC6295601E7B015700F45634 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
 		BC6295751E7B016900F45634 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		BC6295761E7B016900F45634 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		BC6295791E7B03DF00F45634 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		BC62957A1E7B03DF00F45634 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BC62957E1E7B081000F45634 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = "<group>"; };
 		BCFE0C591E7997C200C9D574 /* jsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFE0C5D1E7997C200C9D574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCFE0C5F1E7997C200C9D574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 				BCFE0CA01E799E2400C9D574 /* Foundation.framework in Frameworks */,
 				BCFE0C9E1E799E1C00C9D574 /* AVFoundation.framework in Frameworks */,
 				BCFE0C9C1E799E1100C9D574 /* AudioToolbox.framework in Frameworks */,
-				BC62955D1E7AFBAF00F45634 /* libcocos2d iOS.a in Frameworks */,
+				BC62957F1E7B081000F45634 /* libcocos2d iOS.a in Frameworks */,
 				BCFE0C9A1E799E0A00C9D574 /* OpenAL.framework in Frameworks */,
 				BCFE0C981E799E0100C9D574 /* OpenGLES.framework in Frameworks */,
 				BCFE0C961E799DF700C9D574 /* QuartzCore.framework in Frameworks */,
@@ -135,8 +135,8 @@
 		BCFE0C5B1E7997C200C9D574 /* jsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC62957E1E7B081000F45634 /* libcocos2d iOS.a */,
 				BC62955E1E7B015700F45634 /* Resources */,
-				BC62955C1E7AFBAF00F45634 /* libcocos2d iOS.a */,
 				BC6295581E7AF68F00F45634 /* script */,
 				BCFE0C831E799D3000C9D574 /* CocosManager.h */,
 				BCFE0C5F1E7997C200C9D574 /* AppDelegate.h */,

@@ -25,7 +25,7 @@
     
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 200)];
     button.backgroundColor = [UIColor grayColor];
-    [button setTitle:@"back" forState:UIControlStateNormal];
+    [button setTitle:@"cmd" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
 
@@ -34,7 +34,8 @@
 
 
 -(void)buttonPressed{
-    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController popViewControllerAnimated:YES];
+    [[CocosManager instance] callJsEngineCallBack:@"comd" withCmd:@"param1" withContent:@"param2"];
 }
 
 - (void)didReceiveMemoryWarning {
