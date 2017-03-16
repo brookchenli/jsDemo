@@ -35,7 +35,7 @@
 
 -(void)buttonPressed{
     //[self.navigationController popViewControllerAnimated:YES];
-    [[CocosManager instance] callJsEngineCallBack:@"comd" withCmd:@"param1" withContent:@"param2"];
+    [[CocosManager instance] callJsEngineCallBack:@"engineCallback" withCmd:@"param1" withContent:@"param2"];
 }
 
 - (void)didReceiveMemoryWarning {
