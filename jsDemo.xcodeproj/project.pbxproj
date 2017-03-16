@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6295591E7AF68F00F45634 /* script in Resources */ = {isa = PBXBuildFile; fileRef = BC6295581E7AF68F00F45634 /* script */; };
+		BC62955D1E7AFBAF00F45634 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62955C1E7AFBAF00F45634 /* libcocos2d iOS.a */; };
+		BC62956B1E7B015700F45634 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BC62955F1E7B015700F45634 /* main.js */; };
+		BC62956C1E7B015700F45634 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = BC6295601E7B015700F45634 /* project.json */; };
+		BC6295771E7B016900F45634 /* res in Resources */ = {isa = PBXBuildFile; fileRef = BC6295751E7B016900F45634 /* res */; };
+		BC6295781E7B016900F45634 /* src in Resources */ = {isa = PBXBuildFile; fileRef = BC6295761E7B016900F45634 /* src */; };
+		BC62957B1E7B03DF00F45634 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62957A1E7B03DF00F45634 /* TestViewController.m */; };
 		BCFE0C5E1E7997C200C9D574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C5D1E7997C200C9D574 /* main.m */; };
 		BCFE0C611E7997C200C9D574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C601E7997C200C9D574 /* AppDelegate.m */; };
-		BCFE0C641E7997C200C9D574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C631E7997C200C9D574 /* ViewController.m */; };
+		BCFE0C641E7997C200C9D574 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C631E7997C200C9D574 /* ViewController.mm */; };
 		BCFE0C671E7997C200C9D574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C651E7997C200C9D574 /* Main.storyboard */; };
 		BCFE0C691E7997C200C9D574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C681E7997C200C9D574 /* Assets.xcassets */; };
 		BCFE0C6C1E7997C200C9D574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C6A1E7997C200C9D574 /* LaunchScreen.storyboard */; };
-		BCFE0C7A1E799C6B00C9D574 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCFE0C791E799C6B00C9D574 /* GameViewController.mm */; };
-		BCFE0C7D1E799D0F00C9D574 /* res in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7B1E799D0F00C9D574 /* res */; };
-		BCFE0C7E1E799D0F00C9D574 /* src in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7C1E799D0F00C9D574 /* src */; };
-		BCFE0C811E799D1900C9D574 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C7F1E799D1900C9D574 /* main.js */; };
-		BCFE0C821E799D1900C9D574 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFE0C801E799D1900C9D574 /* project.json */; };
 		BCFE0C881E799DB900C9D574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C871E799DB900C9D574 /* UIKit.framework */; };
 		BCFE0C8A1E799DC500C9D574 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C891E799DC500C9D574 /* libiconv.tbd */; };
 		BCFE0C8C1E799DCD00C9D574 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE0C8B1E799DCD00C9D574 /* Security.framework */; };
@@ -37,22 +39,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC6295581E7AF68F00F45634 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = "<group>"; };
+		BC62955C1E7AFBAF00F45634 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = "<group>"; };
+		BC62955F1E7B015700F45634 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		BC6295601E7B015700F45634 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
+		BC6295751E7B016900F45634 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		BC6295761E7B016900F45634 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		BC6295791E7B03DF00F45634 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BC62957A1E7B03DF00F45634 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		BCFE0C591E7997C200C9D574 /* jsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFE0C5D1E7997C200C9D574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCFE0C5F1E7997C200C9D574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCFE0C601E7997C200C9D574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCFE0C621E7997C200C9D574 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BCFE0C631E7997C200C9D574 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCFE0C631E7997C200C9D574 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		BCFE0C661E7997C200C9D574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCFE0C681E7997C200C9D574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCFE0C6B1E7997C200C9D574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCFE0C6D1E7997C200C9D574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCFE0C781E799C6B00C9D574 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		BCFE0C791E799C6B00C9D574 /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
-		BCFE0C7B1E799D0F00C9D574 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
-		BCFE0C7C1E799D0F00C9D574 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
-		BCFE0C7F1E799D1900C9D574 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		BCFE0C801E799D1900C9D574 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
 		BCFE0C831E799D3000C9D574 /* CocosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosManager.h; sourceTree = "<group>"; };
 		BCFE0C871E799DB900C9D574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCFE0C891E799DC500C9D574 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -83,6 +87,7 @@
 				BCFE0CA01E799E2400C9D574 /* Foundation.framework in Frameworks */,
 				BCFE0C9E1E799E1C00C9D574 /* AVFoundation.framework in Frameworks */,
 				BCFE0C9C1E799E1100C9D574 /* AudioToolbox.framework in Frameworks */,
+				BC62955D1E7AFBAF00F45634 /* libcocos2d iOS.a in Frameworks */,
 				BCFE0C9A1E799E0A00C9D574 /* OpenAL.framework in Frameworks */,
 				BCFE0C981E799E0100C9D574 /* OpenGLES.framework in Frameworks */,
 				BCFE0C961E799DF700C9D574 /* QuartzCore.framework in Frameworks */,
@@ -99,6 +104,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC62955E1E7B015700F45634 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC6295751E7B016900F45634 /* res */,
+				BC6295761E7B016900F45634 /* src */,
+				BC62955F1E7B015700F45634 /* main.js */,
+				BC6295601E7B015700F45634 /* project.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BCFE0C501E7997C200C9D574 = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +135,16 @@
 		BCFE0C5B1E7997C200C9D574 /* jsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC62955E1E7B015700F45634 /* Resources */,
+				BC62955C1E7AFBAF00F45634 /* libcocos2d iOS.a */,
+				BC6295581E7AF68F00F45634 /* script */,
 				BCFE0C831E799D3000C9D574 /* CocosManager.h */,
-				BCFE0C771E799AC300C9D574 /* Resources */,
 				BCFE0C5F1E7997C200C9D574 /* AppDelegate.h */,
 				BCFE0C601E7997C200C9D574 /* AppDelegate.m */,
 				BCFE0C621E7997C200C9D574 /* ViewController.h */,
-				BCFE0C631E7997C200C9D574 /* ViewController.m */,
-				BCFE0C781E799C6B00C9D574 /* GameViewController.h */,
-				BCFE0C791E799C6B00C9D574 /* GameViewController.mm */,
+				BCFE0C631E7997C200C9D574 /* ViewController.mm */,
+				BC6295791E7B03DF00F45634 /* TestViewController.h */,
+				BC62957A1E7B03DF00F45634 /* TestViewController.m */,
 				BCFE0C651E7997C200C9D574 /* Main.storyboard */,
 				BCFE0C681E7997C200C9D574 /* Assets.xcassets */,
 				BCFE0C6A1E7997C200C9D574 /* LaunchScreen.storyboard */,
@@ -142,17 +160,6 @@
 				BCFE0C5D1E7997C200C9D574 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BCFE0C771E799AC300C9D574 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BCFE0C7F1E799D1900C9D574 /* main.js */,
-				BCFE0C801E799D1900C9D574 /* project.json */,
-				BCFE0C7B1E799D0F00C9D574 /* res */,
-				BCFE0C7C1E799D0F00C9D574 /* src */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		BCFE0C861E799DB900C9D574 /* Frameworks */ = {
@@ -238,12 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCFE0C6C1E7997C200C9D574 /* LaunchScreen.storyboard in Resources */,
-				BCFE0C7D1E799D0F00C9D574 /* res in Resources */,
 				BCFE0C691E7997C200C9D574 /* Assets.xcassets in Resources */,
-				BCFE0C811E799D1900C9D574 /* main.js in Resources */,
+				BC6295591E7AF68F00F45634 /* script in Resources */,
+				BC6295781E7B016900F45634 /* src in Resources */,
+				BC62956C1E7B015700F45634 /* project.json in Resources */,
+				BC6295771E7B016900F45634 /* res in Resources */,
 				BCFE0C671E7997C200C9D574 /* Main.storyboard in Resources */,
-				BCFE0C7E1E799D0F00C9D574 /* src in Resources */,
-				BCFE0C821E799D1900C9D574 /* project.json in Resources */,
+				BC62956B1E7B015700F45634 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFE0C7A1E799C6B00C9D574 /* GameViewController.mm in Sources */,
-				BCFE0C641E7997C200C9D574 /* ViewController.m in Sources */,
+				BCFE0C641E7997C200C9D574 /* ViewController.mm in Sources */,
 				BCFE0C611E7997C200C9D574 /* AppDelegate.m in Sources */,
 				BCFE0C5E1E7997C200C9D574 /* main.m in Sources */,
+				BC62957B1E7B03DF00F45634 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

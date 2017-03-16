@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "GameViewController.h"
+#import "TestViewController.h"
+#import "CocosManager.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 200)];
     button.backgroundColor = [UIColor grayColor];
     [button setTitle:@"push" forState:UIControlStateNormal];
@@ -27,7 +30,7 @@
 }
 
 -(void)buttonPressed{
-    GameViewController *game = [GameViewController new];
+    TestViewController *game = [TestViewController new];
     [self.navigationController pushViewController:game animated:YES];
 }
 

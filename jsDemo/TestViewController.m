@@ -1,23 +1,22 @@
 //
-//  GameViewController.m
+//  TestViewController.m
 //  jsDemo
 //
-//  Created by Brook on 2017/3/15.
+//  Created by Brook on 2017/3/17.
 //  Copyright © 2017年 5wei. All rights reserved.
 //
 
-#import "GameViewController.h"
+#import "TestViewController.h"
 #import "CocosManager.h"
 
-@interface GameViewController ()
+@interface TestViewController ()
 
 @end
 
-@implementation GameViewController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
     
     UIView *m_cocosView = [[CocosManager instance] getCocosEaglView];
     [self.view addSubview:m_cocosView];
@@ -29,14 +28,14 @@
     [button setTitle:@"back" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
-    
+
     // Do any additional setup after loading the view.
 }
+
 
 -(void)buttonPressed{
     [self.navigationController popViewControllerAnimated:YES];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
